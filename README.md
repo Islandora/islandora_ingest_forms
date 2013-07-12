@@ -22,6 +22,8 @@ You can find the latest versions of the Islandora Solution Pack MODS forms by fo
 
 1. [Fork the repository](https://help.github.com/articles/fork-a-repo)
 
-2. Create a folder, and add your xml forms to it.
+2. Add your repository as Git submodule like:
 
-3. [Submit a pull request](https://help.github.com/articles/creating-a-pull-request) explianing what your form does
+`git submodule add https://github.com/yorkulibraries/YUDL-Islandora-forms.git "York University Library"`
+ 
+3. [Submit a pull request](https://help.github.com/articles/creating-a-pull-request) - Make sure you have a README file in your repo that describes what your forms do so other folks can decide if they are potentially helpful.

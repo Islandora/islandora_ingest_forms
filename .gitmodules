@@ -1,0 +1,3 @@
+[submodule "York University Library"]
+	path = York University Library
+	url = https://github.com/yorkulibraries/YUDL-Islandora-forms.git
