@@ -1,6 +1,6 @@
-# Islandora ingest forms
+## Islandora ingest forms
 
-## Description
+### Description
 
 This repository will be used to store a variety of Islandora ingest forms that anyone can download and use.
 
@@ -18,7 +18,23 @@ You can find the latest versions of the Islandora Solution Pack MODS forms by fo
 
 6. [Video MODS Form](https://github.com/Islandora/islandora_solution_pack_video/blob/6.x/install_files/MODS_VIDEO_FORM.xml)
 
-## Contributing
+### Use
+
+1. Clone the repo
+
+    `git clone https://github.com/Islandora/islandora_ingest_forms.git`
+
+2. Initialize the submodules (other's contributed forms)
+
+    `cd islandora_ingest_forms`
+
+    `git submodule init`
+
+3. Update submodules to latest versions
+
+   `git submodule foreach git pull origin master`
+
+### Contributing
 
 1. [Fork the repository](https://help.github.com/articles/fork-a-repo)
 
